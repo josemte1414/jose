@@ -1,0 +1,365 @@
+[
+  {
+    "id": 0,
+    "nombre": "Raiz",
+    "estrellas": "5",
+    "direccion":"C/ cami dels reis 3",
+    "telefono":"+34684924736",
+    "email":"laraiz@gmail.com",
+    "discapacitados":"no",
+    "servicios": [
+      {"ducha": true,
+      "bañera": true,
+      "jacuzzi": true,
+      "bar": true,
+      "tenis": true,
+      "golf": true,
+      "piscina": true,
+      "masajes": true}
+    ],
+    "habitaciones": [
+      {
+        "id": 1,
+        "nombre": "baleares",
+        "descripcion": "Esta habitacion es para parejas, mucho amor y mucho lujo",
+        "camaIndividual": 0,
+        "camaDoble": 1,
+        "precio": [
+          {
+            "agregador": "HSR",
+            "temporadaAlta": true,
+            "moneda": "€",
+            "precioFijado": 406.25,
+            "impuesto": 13,
+            "PrecioFinal": 459.06
+          },
+          {
+            "agregador": "FPS",
+            "temporadaAlta": true,
+            "moneda": "€",
+            "precioFijado": 398.36,
+            "impuesto": 17,
+            "PrecioFinal": 466.08
+          },
+          {
+            "agregador": "LOL",
+            "temporadaAlta": false,
+            "moneda": "€",
+            "precioFijado": 314.28,
+            "impuesto": 15,
+            "PrecioFinal": 361.42
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "madrid",
+        "descripcion": "Esta habitacion es para toda la familia, vas a flipar bro",
+        "camaIndividual": 2,
+        "camaDoble": 1,
+        "precio": [
+          {
+            "agregador": "HSR",
+            "temporadaAlta": false,
+            "moneda": "€",
+            "precioFijado": 609.27,
+            "impuesto": 13,
+            "PrecioFinal": 688.47
+          },
+          {
+            "agregador": "FPS",
+            "temporadaAlta": true,
+            "moneda": "€",
+            "precioFijado": 725.98,
+            "impuesto": 17,
+            "PrecioFinal": 849.39
+          },
+          {
+            "agregador": "LOL",
+            "temporadaAlta": true,
+            "moneda": "€",
+            "precioFijado": 707.56,
+            "impuesto": 15,
+            "PrecioFinal": 827.84
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Sevilla",
+        "descripcion": "Esta habitacion es para parejas divorciadas, con sus respectivas camas separadas.",
+        "camaIndividual": 2,
+        "camaDoble": 0,
+        "precio": [
+          {
+            "agregador": "HSR",
+            "temporadaAlta": false,
+            "moneda": "€",
+            "precioFijado": 482.96,
+            "impuesto": 13,
+            "PrecioFinal": 545.74 
+          },
+          {
+            "agregador": "FPS",
+            "temporadaAlta": true,
+            "moneda": "€",
+            "precioFijado": 506.70,
+            "impuesto": 17,
+            "PrecioFinal": 592.83
+          },
+          {
+            "agregador": "LOL",
+            "temporadaAlta": true,
+            "moneda": "€",
+            "precioFijado": 536.89,
+            "impuesto": 15,
+            "PrecioFinal": 617.42
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre":"TomeuHotel",
+    "estrellas":"3",
+    "direccion":"C/ Balanguera 6",
+    "telefono":"+34695546369",
+    "email":"tomeucanyelles@gmail.com",
+    "discapacitados":"si",
+    "servicios": [
+      {"ducha": true,
+      "bañera": true,
+      "jacuzzi": true,
+      "bar": true,
+      "tenis": true,
+      "golf": false,
+      "piscina": false,
+      "masajes": false}
+    ],
+    "habitaciones": [
+      {
+        "id": 1,
+        "descripcion": "Para toda la familia, un espacio ámplio para que jueguen los chavale",
+        "nombre": "sweet",
+        "camaIndividual": 2,
+        "camaDoble": 1,
+        "precio": [
+          {
+            "agregador": "HSR",
+            "temporadaAlta": false,
+            "moneda": "€",
+            "precioFijado": 125.58,
+            "impuesto": 13,
+            "PrecioFinal": 141.90
+
+          },
+          {
+            "agregador": "FPS",
+            "temporadaAlta": true,
+            "moneda": "€",
+            "precioFijado": 168.25,
+            "impuesto": 17,
+            "PrecioFinal": 196.85
+
+          },
+          {
+            "agregador": "LOL",
+            "temporadaAlta": true,
+            "moneda": "€",
+            "precioFijado": 159.24,
+            "impuesto": 13,
+            "PrecioFinal": 183.12
+
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "descripcion": "Para matrimonios con ganas de una noche loca por un módico precio",
+        "camaIndividual": 0,
+        "camaDoble": 1,
+        "nombre": "salad",
+        "precio": [
+          {
+            "agregador": "HSR",
+            "temporadaAlta": false,
+            "moneda": "€",
+            "precioFijado": 110.29,
+            "impuesto": 13,
+            "PrecioFinal": 141.90
+          },
+          {
+            "agregador": "FPS",
+            "temporadaAlta": false,
+            "moneda": "€",
+            "precioFijado": 132.28,
+            "impuesto": 17,
+            "PrecioFinal": 154.76
+          },
+          {
+            "agregador": "LOL",
+            "temporadaAlta": true,
+            "moneda": "€",
+            "precioFijado": 122.36,
+            "impuesto": 15,
+            "PrecioFinal": 140.71
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "sour",
+        "descripcion": "En esta habitación durmió Freedie Mercury con Paquirrín por primera vez",
+        "camaIndividual": 2,
+        "camaDoble": 2,
+        "precio": [
+          {
+            "agregador": "HSR",
+            "temporadaAlta": false,
+            "moneda": "€",
+            "precioFijado": 208.29,
+            "impuesto": 13,
+            "PrecioFinal": 235.36
+          },
+          {
+            "agregador": "FPS",
+            "temporadaAlta": true,
+            "moneda": "€",
+            "precioFijado": 236.00,
+            "impuesto": 17,
+            "PrecioFinal": 276.12
+          },
+          {
+            "agregador": "LOL",
+            "temporadaAlta": true,
+            "moneda": "€",
+            "precioFijado": 226.78,
+            "impuesto": 15,
+            "PrecioFinal": 260.79
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre":"Slayer Hotel",
+    "estrellas":"2",
+    "direccion":"C/ Salazar Belmar 4",
+    "telefono":"+34658741359",
+    "email":"salyerhotel@gmail.com",
+    "discapacitados":"si",
+    "servicios": [
+      {"ducha": true,
+      "bañera": true,
+      "jacuzzi": false,
+      "bar": true,
+      "tenis": false,
+      "golf": false,
+      "piscina": false,
+      "masajes": false}
+    ],
+    "habitaciones": [
+      {
+        "id": 1,
+        "nombre": "roma",
+        "descripcion": "Como en la antigua Italia, siéntete como si estuvieras allí con su decoración grecoromana",
+        "camaIndividual": 0,
+        "camaDoble": 1,
+        "precio": [
+          {
+            "agregador": "HSR",
+            "temporadaAlta": false,
+            "moneda": "€",
+            "precioFijado": 69.36,
+            "impuesto": 13,
+            "PrecioFinal": 78.37
+          },
+          {
+            "agregador": "FPS",
+            "temporadaAlta": true,
+            "moneda": "€",
+            "precioFijado": 89.25,
+            "impuesto": 17,
+            "PrecioFinal": 104.42
+          },
+          {
+            "agregador": "LOL",
+            "temporadaAlta": true,
+            "moneda": "€",
+            "precioFijado": 78.36,
+            "impuesto": 15,
+            "PrecioFinal": 90.14
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "madrid",
+        "descripcion": "Siéntete como si fueses un viajante solitario en la nueva madrid con nuestra decoración taurina",
+        "camaIndividual": 1,
+        "camaDoble": 0,
+        "precio": [
+          {
+            "agregador": "HSR",
+            "temporadaAlta": false,
+            "moneda": "€",
+            "precioFijado": 48.69,
+            "impuesto": 13,
+            "PrecioFinal": 55.01
+          },
+          {
+            "agregador": "FPS",
+            "temporadaAlta": true,
+            "moneda": "€",
+            "precioFijado": 57.36,
+            "impuesto": 17,
+            "PrecioFinal": 67.11
+          },
+          {
+            "agregador": "LOL",
+            "temporadaAlta": true,
+            "moneda": "€",
+            "precioFijado": 53.75,
+            "impuesto": 15,
+            "PrecioFinal": 61.81
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "israel",
+        "descripcion": "Esto no es una habitación legítima",
+        "camaIndividual": 2,
+        "camaDoble": 0,
+        "precio": [
+          {
+            "agregador": "HSR",
+            "temporadaAlta": false,
+            "moneda": "€",
+            "precioFijado": 55.25,
+            "impuesto": 13,
+            "PrecioFinal": 62.43
+          },
+          {
+            "agregador": "FPS",
+            "temporadaAlta": true,
+            "moneda": "€",
+            "precioFijado": 61.35,
+            "impuesto": 17,
+            "PrecioFinal": 71.77
+          },
+          {
+            "agregador": "LOL",
+            "temporadaAlta": true,
+            "moneda": "€",
+            "precioFijado": 60.32,
+            "impuesto": 17,
+            "PrecioFinal": 69.36
+          }
+        ]
+      }
+    ]
+  }
+]
