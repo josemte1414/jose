@@ -7,7 +7,7 @@
     "telefono":"+34684924736",
     "email":"laraiz@gmail.com",
     "discapacitados":"no",
-    "servicios": [
+    "servicios": 
       {"ducha": true,
       "bañera": true,
       "jacuzzi": true,
@@ -16,7 +16,7 @@
       "golf": true,
       "piscina": true,
       "masajes": true}
-    ],
+    ,
     "habitaciones": [
       {
         "id": 1,
@@ -127,7 +127,7 @@
     "telefono":"+34695546369",
     "email":"tomeucanyelles@gmail.com",
     "discapacitados":"si",
-    "servicios": [
+    "servicios": 
       {"ducha": true,
       "bañera": true,
       "jacuzzi": true,
@@ -136,7 +136,7 @@
       "golf": false,
       "piscina": false,
       "masajes": false}
-    ],
+    ,
     "habitaciones": [
       {
         "id": 1,
@@ -250,7 +250,7 @@
     "telefono":"+34658741359",
     "email":"salyerhotel@gmail.com",
     "discapacitados":"si",
-    "servicios": [
+    "servicios": 
       {"ducha": true,
       "bañera": true,
       "jacuzzi": false,
@@ -259,7 +259,7 @@
       "golf": false,
       "piscina": false,
       "masajes": false}
-    ],
+    ,
     "habitaciones": [
       {
         "id": 1,
